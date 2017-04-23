@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_text_color_white"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Results"
+    android:textColor="@color/theme_text_color_black"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:textSize="18sp"
+    android:id="@+id/results"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi"
+        android:textColor="@color/theme_text_color_black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/results"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/hi"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/hi"
+        android:id="@+id/result_table"
+        >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            >
+            <TextView
+                android:text="Your Score :"
+                android:layout_column="0"
+                style="@style/resultTextView"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/percentage"
+                    android:text="0"
+                    style="@style/resultTextView"
+                    />
+                <TextView
+                    android:text="% ("
+                    style="@style/resultTextView"
+                    />
+                <TextView
+                    android:id="@+id/points"
+                    android:text="0"
+                    style="@style/resultTextView"
+                    />
+                <TextView
+                    android:text=" points)"
+                    style="@style/resultTextView"
+                    />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            >
+            <TextView
+                android:text="Passing Score :"
+                android:layout_column="0"
+                style="@style/resultTextView"
+                />
+            <TextView
+                android:text="50% (50 points)"
+                android:layout_column="1"
+                style="@style/resultTextView"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/result_table"
+        android:background="@color/theme_color"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        style="@style/resultTextView"
+        android:text="Result :"
+        android:layout_below="@id/separator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/result"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/result_container"
+        >
+        <ImageView
+            android:id="@+id/successImage"
+            android:scaleType="fitCenter"
+            android:src="@drawable/wrong"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:id="@+id/successMessage"
+            style="@style/resultTextView"
+            android:text="You did not pass the test."
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+    >
+        <Button
+            android:id="@+id/reviewQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Review Quiz"
+            android:textColor="@color/theme_text_color_white"
+            android:textAllCaps="false"
+            style="@style/curved_button"
+            />
+        <Button
+            android:id="@+id/retryQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Retry Quiz"
+            android:textColor="@color/theme_text_color_white"
+            android:textAllCaps="false"
+            style="@style/curved_button"
+            android:layout_marginLeft="30dp"
+            />
+        </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

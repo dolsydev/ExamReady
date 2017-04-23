@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="theme_color">#C0504D</color>
+    <color name="theme_text_color_white">#fff</color>
+    <color name="theme_color_red">#f00</color>
+    <color name="theme_text_color_black">#000</color>
+    <color name="theme_light_color">#D6E9FA</color>
+    <color name="theme_light_color_selected">#DAE9FF</color>
+    <color name="theme_color_gray">#808080</color>
+    <color name="offers_button_gray">#756F7C</color>
+    <color name="theme_color_green">#899D25</color>
+    <color name="theme_extra_gray">#414141</color>
+    <color name="dining_information_color">#3366FF</color>
+    <color name="dining_purchase_codes_color">#99CCFF</color>
+    <color name="dining_redeem_and_search_color">#00CCFF</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+   <color name="green_color">#899D25</color>
+
+   
+</resources>

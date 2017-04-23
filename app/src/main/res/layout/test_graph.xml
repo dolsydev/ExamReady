@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/mscrollmain"
+    android:background="@color/theme_text_color_white"
+    >
+
+
+    <ScrollView
+        android:id="@+id/mscrollmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+           android:paddingBottom="30dp"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin_login" >
+
+            <TextView
+                android:id="@+id/textViewQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+              android:textColor="#000000"
+                android:text="An economy in which both the public and private sectors contribute to economic growth is known as"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/questionImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="200dp"
+                android:scaleType="fitCenter"
+                android:paddingTop="10dp"
+                android:layout_below="@+id/textViewQuestion"
+                android:src="@drawable/graph"/>
+
+
+
+            <RadioButton
+                android:id="@+id/radioButtonOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/questionImage"
+                 android:layout_marginTop="24dp"
+                android:text=" feudal economy" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioButtonOption1"
+                android:layout_marginTop="18dp"
+                android:text=" capitalist economy" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButtonOption2"
+                android:layout_below="@+id/radioButtonOption2"
+                android:layout_marginTop="17dp"
+                android:text=" socialist economy" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButtonOption3"
+                android:layout_below="@+id/radioButtonOption3"
+                android:layout_marginTop="18dp"
+                android:text=" mixed economy" />
+
+            <Button
+                android:id="@+id/buttonSubmitpage"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/textViewQuestion"
+                android:layout_below="@+id/radioButtonOption4"
+                android:layout_marginTop="57dp"
+
+                android:background="@drawable/test2buttonshape"
+                android:text="Submit" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/relativelayoutlady"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:alpha="0.9"
+        android:background="#000"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/relativemain">
+
+        <ImageView
+            android:id="@+id/imageViewMiDDleStick"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageViewUpsTick"
+            android:src="@drawable/middle" />
+
+        <ImageView
+            android:id="@+id/imageViewDowNsTick"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageViewUpsTick"
+            android:src="@drawable/down" />
+
+        <ImageView
+            android:id="@+id/imageViewUpsTick"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/up" />
+
+        <RelativeLayout
+            android:id="@+id/dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/imageViewMiDDleStick"
+            android:layout_marginBottom="16dp"
+            android:background="#858484"
+            android:layout_toRightOf="@+id/layoutdialog"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <Button
+                android:id="@+id/buttonContinue"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="#aa3b38"
+                android:text="continue"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonTryAgain"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/buttonExPlanaTionbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="#aa3b38"
+                android:text="Try again"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonExPlanaTionbutton"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/buttonContinue"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="#aa3b38"
+                android:text="View Explanation"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageViewCaNcelbuTTon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/wrong" />
+
+            <TextView
+                android:id="@+id/textViewincorrectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageViewCaNcelbuTTon"
+                android:layout_centerHorizontal="true"
+                android:text="incorrect"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textViewincorrectText"
+                android:layout_centerHorizontal="true"
+                android:background="#005e5e" >
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewpleasetryagain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewthatisincorect"
+                android:layout_below="@+id/textViewthatisincorect"
+                android:text="Please try again"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewthatisincorect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/buttonTryAgain"
+                android:layout_below="@+id/relativeLayout"
+                android:text="That is incorrect.  "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layoutdialog"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            android:layout_alignBottom="@+id/imageViewMiDDleStick"
+            android:layout_marginBottom="16dp"
+            android:layout_toLeftOf="@+id/imageViewMiDDleStick"
+            android:background="#858484" >
+
+            <ImageView
+                android:id="@+id/imageViewCaNcel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/right" />
+
+            <TextView
+                android:id="@+id/textViewincorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageViewCaNcel"
+                android:layout_centerHorizontal="true"
+                android:text="correct"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textViewincorrect"
+                android:layout_centerHorizontal="true"
+                android:background="#005e5e" >
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewthatisincorectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_below="@+id/relativeLayout1"
+                android:text="That&apos;s right! you selected correct responce  "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/buttonExPlanaTion"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textViewthatisincorectText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp"
+                android:background="#aa3b38"
+                android:text="View Explanation"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonCoNtInue"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/buttonExPlanaTion"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#aa3b38"
+                android:text="continue"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Parveen"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:id="@+id/textViewtesting"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:max="100"
+            android:progress="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:indeterminate="false" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

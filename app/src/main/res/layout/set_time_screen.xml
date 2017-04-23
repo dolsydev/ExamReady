@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/theme_text_color_white"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/Mainlayout">
+
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/edit_text_hour"
+        android:hint="HH"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_marginTop="108dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/edit_text_minute"
+        android:hint="MM"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_alignTop="@+id/edit_text_hour"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="76dp"
+        android:layout_marginEnd="76dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Set Time"
+        android:background="@drawable/oragebuttonback"
+        android:id="@+id/button_set_time"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/edit_text_minute"
+        android:layout_alignEnd="@+id/edit_text_minute"
+        android:layout_alignLeft="@+id/edit_text_hour"
+        android:layout_alignStart="@+id/edit_text_hour" />
+</RelativeLayout>

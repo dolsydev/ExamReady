@@ -1,0 +1,68 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#CC808080"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/lady_middle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="250dp"
+        android:src="@drawable/middle"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:translationZ="1dp"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/lady_middle"
+        android:layout_centerVertical="true"
+        android:background="@drawable/explanation_border"
+        >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/lady_middle"
+        android:padding="20dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Variance is the tru meaning of the word, where every one can
+                check out for some thing and provide world a better opportunity"
+            android:textColor="@color/theme_text_color_black"
+            android:id="@+id/explanationText"
+            />
+        <ImageView
+            android:id="@+id/explanationImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:scaleType="fitCenter"
+            android:paddingTop="10dp"
+            android:layout_below="@id/explanationText"
+            android:src="@drawable/graph"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            style="@style/curved_button"
+            android:text="Continue"
+            android:textColor="@color/theme_text_color_white"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/explanationImage"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/continueButton"
+            />
+
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

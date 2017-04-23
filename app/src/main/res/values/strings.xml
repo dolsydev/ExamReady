@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExamMate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="regsiterview">Register an account</string>
+    <string name="signinview">Login</string>
+    <string name="username"> Username</string>
+    <string name="password">Password</string>
+
+    <string-array name="categoryarray">
+        <item>Select Category</item>
+        <item>Category1</item>
+        <item>Dance</item>
+        <item>Music</item>
+        <item>pub</item>
+
+    </string-array>
+
+    <string-array name="currencyarray">
+        <item>\u00A3</item>
+        <item>$</item>
+    </string-array>
+
+    <string name="facebook_app_id">482936338515617</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+
+    <string name="login">ExamMate</string>
+    <string name="click_here"> Click Here</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_forgotpassword">Forgot Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="forgot_password_info">Retrieve password: Please enter your registered email address below</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_index_menu_controller">IndexMenuController</string>
+    <string name="menu_list_item_icon">menu icon</string>
+    <string name="menu">MENU</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="search">Search</string>
+    <string name="either_enter">Either enter your ZIP code or press</string>
+    <string name="icon_to">icon to set</string>
+    <string name="your_current">your current location.</string>
+    <string name="current_city">Current City :</string>
+    <string name="location">Location</string>
+    <string name="radius">Radius</string>
+    <string name="miles">mile(s)</string>
+
+    <string-array name="indexMenuOptions">
+        <item>Local Participants</item>
+        <item>Favorites</item>
+        <item>Gift Cards</item>
+        <item>Dining Dough</item>
+        <item>Travel Services</item>
+        <item>My Concierge</item>
+        <item>My Savings</item>
+        <item>Identity Theft</item>
+        <item>Cart</item>
+        <item>Profile</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="local_participants_categories">
+        <item>All</item>
+        <item>Restaurants</item>
+        <item>Shopping</item>
+        <item>Entertainment</item>
+        <item>Automotive</item>
+        <item>Health &amp; Beauty</item>
+        <item>Home &amp; Garden</item>
+        <item>Services</item>
+    </string-array>
+
+    <array name="local_participants_icons">
+        <item>@drawable/all</item>
+        <item>@drawable/restaurants</item>
+        <item>@drawable/shopping</item>
+        <item>@drawable/entertainment</item>
+        <item>@drawable/automotive</item>
+        <item>@drawable/health_beauty</item>
+        <item>@drawable/home_garden</item>
+        <item>@drawable/services</item>
+    </array>
+    <array name="indexMenuIcons">
+        <item>@drawable/local_participants</item>
+        <item>@drawable/favorite</item>
+        <item>@drawable/gift_cards</item>
+        <item>@drawable/dining_dough</item>
+        <item>@drawable/travel_service</item>
+        <item>@drawable/concierge</item>
+        <item>@drawable/savings</item>
+        <item>@drawable/identity_theft</item>
+        <item>@drawable/cart</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ziprange_controller">ZIPRangeController</string>
+    <string name="title_activity_categorized_local_participants">CategorizedLocalParticipants</string>
+    <string name="title_activity_partner_offers">partnerOffers</string>
+    <string name="title_activity_map_controller">PartnerLocation</string>
+    <string name="title_activity_web_view_controller">WebViewController</string>
+    <string name="title_activity_report_issue_controller">ReportIssueController</string>
+    <string name="title_activity_product_detail">ProductDetail</string>
+    <string name="contentDescriptionIdle"></string>
+    <string name="title_activity_tap_the_card_to_save">TapTheCardToSave</string>
+    <string name="title_activity_billing_view_controller">BillingViewController</string>
+    <string name="billing_address">Billing Address :</string>
+    <string name="shipping_address">Shipping Address :</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address1">Address 1</string>
+    <string name="address2">Address 2</string>
+    <string name="state">Province State</string>
+    <string name="city">City</string>
+    <string name="ZIP">Postal ZIP Code</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="mobile_email">Mobile Email</string>
+    <string name="same_as_billing">Same As Billing</string>
+    <string name="order_total">Order Total:  $ </string>
+    <string name="payment_information">Payment Information</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="expiration_date_hint">(month/year)</string>
+    <string name="cvv_number">CVV Number</string>
+    <string name="select_your_credit_card">Select your Credit Card</string>
+    <string name="select_your_card">Select your Card</string>
+    <string name="spinner_title">Spinner</string>
+    <string name="place_order">Place Order</string>
+    <string name="title_activity_profile_controller">ProfileController</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="address">Address</string>
+    <string name="state_plain">State</string>
+    <string name="zip">ZIP</string>
+    <string name="Phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="title_activity_identity_theft_controller">IdentityTheftController</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="report_identity_theft">Report Identity Theft</string>
+    <string name="user_note">Please be sure your Restoration Rescue® coverage has been activated. Visit the full website or contact Membership Services for further details.</string>
+    <string name="identity_theft_notification_form">Identity Theft Notification Form</string>
+    <string name="cellPhone">Cell/Business Number</string>
+    <string name="report_an_identity_theft_accident">Report an identity Theft Accident</string>
+    <string name="call_my_concierge">Call My Concierge</string>
+    <string name="email_my_concierge">Email My Concierge</string>
+    <string name="title_activity_concierge_email_controller">ConciergeEmailController</string>
+    <string name="send_email">Send Email</string>
+    <string name="flight_search">Flight Search</string>
+    <string name="hotel_search">Hotel Search</string>
+    <string name="car_rental_search">Car Rental Search</string>
+    <string name="concierge">Concierge</string>
+    <string name="gift_cards">Gift Cards</string>
+    <string name="e_gift_cards">eGift Cards</string>
+    <string name="movie_tickets">Movie Tickets</string>
+    <string name="retail_stores_and_gifts"><![CDATA[Retail Stores & Gifts]]></string>
+    <string name="dining_and_entertainment"><![CDATA[Dining & Entertainment]]></string>
+    <string name="title_activity_gift_card_list_controller">GiftCardListController</string>
+    <string name="no_item_available">No Item Available</string>
+    <string name="information">Information</string>
+    <string name="purchase_codes">Purchase Codes</string>
+    <string name="redeem_and_search"><![CDATA[Redeem & Search]]></string>
+    <string name="quantity">Quantity</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="ten_dollar_certificate_codes">$10 Certificate Codes</string>
+    <string name="zero_cost">0.00</string>
+    <string name="rate_for_ten_dollar">\@ $2.00</string>
+    <string name="twenty_five_dollar_certificate_codes">$25 Certificate Codes</string>
+    <string name="rate_for_twenty_five_dollar">\@ $4.00</string>
+    <string name="fifty_dollar_certificate_codes">$50 Certificate Codes</string>
+    <string name="rate_for_fifty_dollar">\@ $6.50</string>
+    <string name="total">Total</string>
+    <string name="proceed">Proceed</string>
+    <string name="dollar_symbol">$</string>
+    <string name="total_saved">Total Saved</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="saved">Saved</string>
+    <string name="saving_input_alert">Enter the savings made from this coupon</string>
+    <string name="grand_total">Grand Total :</string>
+    <string name="standard_shipping_is_always_free">Standard Shipping is Always Free!</string>
+    <string name="update_cart">Update Cart</string>
+    <string name="view_details">+ View Details</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="dining_dough">Dining Dough</string>
+    <string name="dining_dough_offer_title">Save up to 87% on dining certificates</string>
+    <string name="most_e_gift_cards">Most eGift Card purchases can be delivered for immediate use.</string>
+    <string name="standard_shipping_is">Standard shipping is always free.</string>
+    <string name="local_participants">Local Participants</string>
+    <string name="zip_code">ZIP Code</string>
+    <string name="title_activity_navigation_controller">ExamMate</string>
+
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Learn</item>
+        <item >Time Mode</item>
+        <item >Freeform</item>
+        <item >Payment</item>
+        <item >Contact Us</item>
+        <item >About Us</item>
+        <item >Help</item>
+        <item >Logout</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/learn</item>
+        <item>@drawable/time_mode</item>
+        <item>@drawable/freeform</item>
+        <item>@drawable/payment</item>
+        <item>@drawable/contact_us</item>
+        <item>@drawable/about</item>
+        <item>@drawable/help</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="splashScreen">SplashScreen</string>
+    <string name="completionSentence">Great job! you may crosscheck your test to
+        answer unanswered questions or click \'View Results\' to get your instant result</string>
+
+
+    <string name="About_us_content">This app is fully developed by Dolsy.\n\n
+
+        ExamMate Mobile is the first ever engaging and interactive way to learn using Past Questions, with over 7000
+voice over lessons and interaction.
+The process of creating, proof-reading, reconstructing and teaching each question makes ExamMate Mobile
+unique from the rest.
+ExamMate Mobile does not only provide solutions to all the questions, it also explains them with over 7000
+voice over explanations, by breaking down the solution steps.</string>
+
+
+</resources>

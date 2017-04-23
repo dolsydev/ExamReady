@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/projectback"
+
+    >
+
+    <ScrollView
+        android:id="@+id/mscrolltest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textViewincorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewCaNcel"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewCaNcel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:src="@drawable/icon" />
+
+    <RelativeLayout
+        android:id="@+id/mainlayouts"
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewincorrect"
+        android:layout_marginTop="14dp"
+
+        >
+
+        <Button
+            android:id="@+id/buttonLearn"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_alignBottom="@+id/buttonTimeMode"
+            android:layout_alignLeft="@+id/buttonFreeForm"
+            android:background="@drawable/shapebutton"
+            android:text="Learn"
+            android:textColor="#ffffff"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/buttonTimeMode"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_alignLeft="@+id/buttonPayment"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/shapebuttontime"
+            android:text="Time mode"
+            android:textColor="#ffffff"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/buttonFreeForm"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonLearn"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/shapebuttonfreefom"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:text="Freeform"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonPayment"
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/buttonFreeForm"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/shapebuttonpayment"
+            android:paddingRight="5dp"
+            android:text="Payment"
+            android:textColor="#ffffff"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

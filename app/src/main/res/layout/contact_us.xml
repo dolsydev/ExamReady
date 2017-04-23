@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wolf.testseries.fragmentController.ContactUsController"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExamMate"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/theme_color"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/heading"
+        android:id="@+id/contact_details"
+        >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+
+            >
+            <TextView
+                android:text="Email"
+                android:layout_column="0"
+                android:textColor="@color/theme_color_gray"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:text="dolsy@gmail.com"
+                android:layout_column="0"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+
+            >
+            <TextView
+                android:text="Phone"
+                android:layout_column="0"
+                android:textColor="@color/theme_color_gray"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/phone"
+                android:text="xxxxxxxxx"
+                android:layout_column="0"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+
+            >
+            <TextView
+                android:text="Website"
+                android:layout_column="0"
+                android:textColor="@color/theme_color_gray"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/website"
+                android:text="xxxxxxxx"
+                android:layout_column="0"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
